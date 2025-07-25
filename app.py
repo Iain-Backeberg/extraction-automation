@@ -68,8 +68,8 @@ if uploaded_file is not None:
     if file_ext in ['.png', '.jpg', '.jpeg']:
         image = Image.open(temp_file_path)
         with col1:
-        st.image(image, caption=uploaded_file.name, use_container_width=True)
-        extracted_text = pytesseract.image_to_string(image)
+           st.image(image, caption=uploaded_file.name, use_container_width=True)
+           extracted_text = pytesseract.image_to_string(image)
     elif file_ext == '.pdf':
         with pdfplumber.open(temp_file_path) as pdf:
             text = ''
