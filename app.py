@@ -51,7 +51,7 @@ Doing it this way can free up time to focus on what really matters in your busin
  </p>
 """, unsafe_allow_html=True)
 
-uploaded_file = st.file_uploader("Upload PNG/JPG/JPEG/PDF, extract text, edit it, and download as a text file immediately. If you are using a mobile device, please ensure hte document or image is uploaded from the device's internal storage. Uploading directly from cloud apps (e.g. Google Drive, Dropbox) may not work on mobile browsers.", type=["png", "jpg", "jpeg", "pdf"])
+uploaded_file = st.file_uploader("Upload PNG/JPG/JPEG/PDF, extract text, edit it, and download as a text file immediately. If you are using a mobile device, please ensure that the document or image is uploaded from the device's internal storage. Uploading directly from cloud apps (e.g. Google Drive, Dropbox) may not work on mobile browsers.", type=["png", "jpg", "jpeg", "pdf"])
 
 extracted_text = ""
 
