@@ -116,5 +116,5 @@ This demo showcases a proof of concept for document automation.
 You can download your extracted text as a plain text (.txt) file for simplicity.
 Real-world application requires advanced, paid tools which will handle document processing with a higher degree of accuracy. 
 No personal or private information is stored on any servers. All files are temporary, and the final version is downloaded to your personal device.
-All production-ready solutions will be tailored to your specific requirements. </p>
+All production-ready solutions will be tailored to your specific requirements. </p><p style='text-align:center'>Copyright IBAI 2025</p>
 """, unsafe_allow_html=True)
