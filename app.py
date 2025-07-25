@@ -6,6 +6,8 @@ import tempfile
 import os
 import re
 
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+
 st.set_page_config(page_title="IBAI Document Automation Demonstration", page_icon="📄", layout="wide")
 col_logo, col_title = st.columns([0.08, 0.92])  # narrower logo column
 
